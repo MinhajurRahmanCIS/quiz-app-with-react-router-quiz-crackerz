@@ -4,11 +4,11 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header-container'>
-            <img src="https://img.freepik.com/premium-vector/quiz-logo-with-speech-bubble-symbols-concept-questionnaire-show-sing-quiz-button-question-competition-exam-interview-modern-emblem_180786-72.jpg" alt="" />
+            <img src="https://www.banksandlloyd.com/wp-content/uploads/2019/08/quiz-night.png" alt="" />
             <nav className='navBar'>
             <Link to='/'>Topic</Link>
-            
-            <Link to='/'>Topic</Link>
+            <Link to='/statistics'>Statistics</Link>
+            <Link to='/blog'>Blog</Link>
         </nav>
         </div>
         

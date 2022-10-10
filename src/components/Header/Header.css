@@ -1,4 +1,6 @@
 .header-container{
+    background-color: rgba(185, 185, 233, 0.322);
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,15 +8,30 @@
 }
 .header-container img {
     height: 150px;
-    width: 150px;
+    width: 300px;
 }
+
 .navBar a {
     text-decoration: none;
     color: black;
     font-weight: 700;
-    margin-right: 3px;
+    margin-right: 10px;
 }
 .navBar a:hover{
     background-color: rgba(128, 128, 128, 0.445);
     padding: 5px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .header-container img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-container img {
+        height: 100px;
+        width: 100px;
+    }
 }

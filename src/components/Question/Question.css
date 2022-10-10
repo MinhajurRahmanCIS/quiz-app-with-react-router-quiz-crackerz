@@ -1,6 +1,6 @@
 .quiz-question-container{
     border: 1px solid gainsboro;
-    margin: 20px;
+    margin: 5% 20%;
 }
 .answer-container{
     border: 1px solid rgb(0, 217, 255);
@@ -24,4 +24,23 @@
 }
 .eye:hover{
    color: skyblue;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .quiz-question-container{
+        border: 1px solid gainsboro;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .quiz-question-container{
+        border: 1px solid gainsboro;
+        margin: 20px;
+    }
+    .options-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
 }
