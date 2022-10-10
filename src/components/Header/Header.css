@@ -1,0 +1,20 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.header-container img {
+    height: 150px;
+    width: 150px;
+}
+.navBar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 3px;
+}
+.navBar a:hover{
+    background-color: rgba(128, 128, 128, 0.445);
+    padding: 5px;
+}
