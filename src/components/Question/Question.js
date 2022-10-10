@@ -2,7 +2,8 @@ import React from 'react';
 import './Question.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 const Question = ({questionQuiz, count}) => {
     
 
@@ -13,13 +14,20 @@ const Question = ({questionQuiz, count}) => {
             toast.success('Correct Answer', { position: "top-center" })
         }
         else{
-            toast.warn('Wrong Answer', { position: "top-center" })
+            toast.error('Wrong Answer', { position: "top-center" })
         }
+    }
+
+    const showAnswers = (correctAnswer) => {
+        toast.info(`The Answer is :  ${correctAnswer} `, { position: "top-center" })
     }
 
     return (
         <div className='quiz-question-container'>
-            <h3><strong>Question: {count}</strong> {} {question}</h3>
+            <div className='show-answer' onClick={() => showAnswers(correctAnswer)}>
+            <FontAwesomeIcon className='eye' icon={faEye} />
+            </div> <ToastContainer />
+            <h3><strong>Question: </strong> {question}</h3>
             <div className='options-container'>
               {options.map(answer => <div className='answer-container' key={answer} onClick={() => correctHandler(answer)} > {answer} </div>)}<ToastContainer />
             </div>

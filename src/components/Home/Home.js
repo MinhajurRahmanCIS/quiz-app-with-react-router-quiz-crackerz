@@ -8,7 +8,8 @@ const Home = () => {
     console.log(topics)
     return (
         <div>
-            <h1>All Quiz's  {quizTopics.data.length}</h1>
+            <h1 className='title-text'>Quiz's Section </h1>
+            <h4 className='total-quiz-details'>Total {quizTopics.data.length} Quiz Found</h4>
             <div className='topic-container'>
               {
                 topics.map(topic => <QuizTopic key={topic.id} topic={topic}></QuizTopic>)

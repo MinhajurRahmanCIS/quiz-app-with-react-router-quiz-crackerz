@@ -16,3 +16,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+.show-answer{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.eye:hover{
+   color: skyblue;
+}
