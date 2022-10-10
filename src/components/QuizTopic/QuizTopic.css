@@ -1,0 +1,32 @@
+.quizTopic-container{
+    border: 1px solid gainsboro;
+    background-color: rgba(128, 128, 128, 0.336);
+}
+
+.quizTopic-container img{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .topic-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .topic-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
