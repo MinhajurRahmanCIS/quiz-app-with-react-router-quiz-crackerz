@@ -17,8 +17,7 @@
     gap: 5px;
 }
 .show-answer{
-    display: flex;
-    justify-content: end;
+    text-align: end;
     margin-right: 10px;
     margin-top: 10px;
 }
@@ -42,6 +41,5 @@
     .options-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
     }
 }

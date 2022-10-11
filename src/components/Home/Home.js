@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import QuizTopic from '../QuizTopic/QuizTopic';
 import './Home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGears, faChartSimple } from '@fortawesome/free-solid-svg-icons'
+import { faGears} from '@fortawesome/free-solid-svg-icons'
 const Home = () => {
     const quizTopics = useLoaderData();
     const topics = quizTopics.data;
