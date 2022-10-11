@@ -36,7 +36,8 @@ function App() {
     
    {
     path: '*',
-    element: <div>Error</div>
+    element: <div> <h1 style={{color:'red'}}>Error 404 not found</h1>
+    <h3>Something Wrong. Please try again.</h3> </div>
    }
   ])
   

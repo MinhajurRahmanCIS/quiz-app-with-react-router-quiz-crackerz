@@ -17,5 +17,5 @@ This is a Quiz System.
 ·         After starting the quiz, you will get an instant correct and wrong answer by clicking on it.\
 ·         If you press the eye icon you will see the correct answer.
 
-
+## The site is fully responsive
 
