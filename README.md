@@ -10,7 +10,7 @@ Project Repository Link : https://github.com/programming-hero-web-course2/b6-qui
 This is a Quiz System.
 ## Steps –
 1.       I create components to easily work with react-routers.
-2.       Adding Sections in one route. Those routers are Topics, Statistics and Blogs.
+2.       Adding Sections in one route. Those route Topics are Statistics and Blogs.
 3.        All data take from API’s
 ## Features –
 ·         In the Topics section you will get different topics questions for testing your skills.\
