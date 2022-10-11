@@ -12,7 +12,7 @@ This is a Quiz System.
 1.       I create components to easily work with react-routers.
 2.       Adding Sections in one route. Those routers are Topics, Statistics and Blogs.
 3.        All data take from API’s
-## Feature –
+## Features –
 ·         In the Topics section you will get different topics questions for testing your skills.\
 ·         After starting the quiz, you will get an instant correct and wrong answer by clicking on it.\
 ·         If you press the eye icon you will see the correct answer.
