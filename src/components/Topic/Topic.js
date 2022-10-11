@@ -11,7 +11,7 @@ const Topic = () => {
             <p>Total <strong>{options.length}</strong> Question</p>
             <div className='question-container'>
             {
-           options.map(questionQuiz => <Question key={questionQuiz.id} questionQuiz={questionQuiz} count={questionQuiz.length}></Question> )
+           options.map(questionQuiz => <Question key={questionQuiz.id} questionQuiz={questionQuiz} ></Question> )
            
           }
             </div>

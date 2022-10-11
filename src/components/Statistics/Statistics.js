@@ -8,7 +8,6 @@ const Statistics = () => {
     
     const statData = useLoaderData();
     const data = statData.data;
-    console.log(data)
     return (
         <div>
             <h1 className='title-text'>Statistics Quiz Report <FontAwesomeIcon icon={faChartLine} /> </h1>

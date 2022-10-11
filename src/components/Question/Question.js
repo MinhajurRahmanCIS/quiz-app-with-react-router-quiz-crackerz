@@ -4,11 +4,10 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
-const Question = ({questionQuiz, count}) => {
+const Question = ({questionQuiz}) => {
     
 
     const {question, options,correctAnswer} = questionQuiz;
-    
     const correctHandler = (answer) => {
         if(answer === correctAnswer){
             toast.success('Correct Answer', { position: "top-center" })
